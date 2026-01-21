@@ -22,25 +22,25 @@ Handle API failures using fallback mechanisms
 🧱 Project Structure
 LLM_Model_Project/
 │
-├── app.py                # Main Streamlit application
-├── auth.py               # Authentication & access control
-├── config.py             # Application configuration
+├── app.py # Main Streamlit application
+├── auth.py # Authentication & access control
+├── config.py # Application configuration
 │
-├── models/               # LLM integrations
-│   ├── chatgpt_model.py  # OpenAI ChatGPT integration
-│   ├── gemini_model.py   # Google Gemini integration
-│   └── llama_model.py    # Meta LLaMA integration
+├── models/ # LLM integrations
+│ ├── chatgpt_model.py # OpenAI ChatGPT integration
+│ ├── gemini_model.py # Google Gemini integration
+│ └── llama_model.py # Meta LLaMA integration
 │
-├── utils/                # Utility modules
-│   ├── router.py         # Model routing & fallback logic
-│   ├── parallel.py       # Parallel execution handler
-│   ├── rate_limiter.py   # API rate limiting
-│   └── report.py         # Response comparison & reports
+├── utils/ # Utility modules
+│ ├── router.py # Model routing & fallback logic
+│ ├── parallel.py # Parallel execution handler
+│ ├── rate_limiter.py # API rate limiting
+│ └── report.py # Response comparison & reports
 │
-├── data/                 # Input/output storage
-├── .env                  # API keys (ignored in GitHub)
-├── .venv/                # Virtual environment (ignored)
-└── __pycache__/           # Cache files
+├── data/ # Input / output storage
+├── .env # API keys (ignored in GitHub)
+├── .venv/ # Virtual environment (ignored)
+└── pycache/ # Cache files
 
 
 🛠️ Technologies Used
